@@ -1,6 +1,5 @@
 {
-  "name": "starter-basic",
-  "version": "0.1.0",
+  "name": "vibehunters.net",
   "private": true,
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",

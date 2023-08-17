@@ -30,6 +30,12 @@ const schema = defineSchema({
       path: "content/post",
       fields: [
         {
+          type: "reference",
+          label: "Car",
+          name: "car",
+          collections: ["car"],
+        },
+        {
           type: "string",
           label: "Title",
           name: "title",
@@ -50,6 +56,18 @@ const schema = defineSchema({
         },
       },
     },
+    {
+      label: "Cars",
+      name: "car",
+      path: "content/car",
+      fields: [
+        {
+          type: "string",
+          label: "Title",
+          name: "title",
+        },
+      ],
+    }
   ],
 });
 
